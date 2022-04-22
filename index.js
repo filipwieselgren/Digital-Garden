@@ -11,14 +11,14 @@ const atagNav3 = document.querySelector(".atag-nav3");
 const switchToServices = document.querySelector(".tree-to-services");
 
 hmMenuCon.addEventListener("click", () => {
-  hmMenu.src = "images/hm-menu-before-col.png";
+  hmMenu.src = "./images/hm-menu-before-col.png";
   setTimeout(changeImg, 500);
 });
 
 function changeImg() {
   logoHero.style.display = "none";
 
-  hmMenu.src = "images/hm-menu-col.png";
+  hmMenu.src = "./images/hm-menu-col.png";
   setTimeout(showHm, 100);
 }
 
@@ -33,41 +33,41 @@ cross.addEventListener("click", () => {
   logoHero.style.display = "block";
   hmMenuCon.style.display = "block";
 
-  hmMenu.src = "images/hm-menu-before-hover.png";
+  hmMenu.src = "./images/hm-menu-before-hover.png";
 });
 
 treeToServices.addEventListener("mouseover", () => {
-  logoHeroAfterHover.src = "images/tree-hover.png";
+  logoHeroAfterHover.src = "./images/tree-hover.png";
   treeToServices.style.cursor = "pointer";
 });
 treeToServices.addEventListener("mouseout", () => {
-  logoHeroAfterHover.src = "images/hero-tree-phone.png";
+  logoHeroAfterHover.src = "./images/hero-tree-phone.png";
 });
 treeToServices.addEventListener("click", () => {
-  switchToServices.src = "images/tree-upside-click.png";
+  switchToServices.src = "./images/tree-upside-click.png";
 });
 
 atagNav1.addEventListener("mouseover", () => {
-  logoHeroAfterHover.src = "images/tree-hover.png";
+  logoHeroAfterHover.src = "./images/tree-hover.png";
   treeToServices.style.cursor = "pointer";
 });
 
 atagNav1.addEventListener("mouseout", () => {
-  logoHeroAfterHover.src = "images/hero-tree-phone.png";
+  logoHeroAfterHover.src = "./images/hero-tree-phone.png";
 });
 atagNav2.addEventListener("mouseover", () => {
-  logoHeroAfterHover.src = "images/tree-hover.png";
+  logoHeroAfterHover.src = "./images/tree-hover.png";
   treeToServices.style.cursor = "pointer";
 });
 
 atagNav2.addEventListener("mouseout", () => {
-  logoHeroAfterHover.src = "images/hero-tree-phone.png";
+  logoHeroAfterHover.src = "./images/hero-tree-phone.png";
 });
 atagNav3.addEventListener("mouseover", () => {
-  logoHeroAfterHover.src = "images/tree-hover.png";
+  logoHeroAfterHover.src = "./images/tree-hover.png";
   treeToServices.style.cursor = "pointer";
 });
 
 atagNav3.addEventListener("mouseout", () => {
-  logoHeroAfterHover.src = "images/hero-tree-phone.png";
+  logoHeroAfterHover.src = "./images/hero-tree-phone.png";
 });
